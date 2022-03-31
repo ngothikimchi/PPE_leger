@@ -1,0 +1,757 @@
+.background{
+    width:100%;
+    height:200px;
+    /* background-color: rgb(172, 183, 231); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/image-mtg-mots-cles-2020-07-28t173043.285-1.jpg");
+    position:relative;
+}
+.img_header{
+
+}
+.logo{
+    width:70%;
+    height:fit-content;
+    left:25%;
+    top:30%;
+    /* background-color: bisque; */
+    position:absolute;
+    /* font-family: 'Comforter Brush', cursive; */
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+.bar_menu{
+    font-weight: bolder;
+   
+}
+
+/*****************************************************************************************************************************************/
+.blog_article{
+    width:80%;
+    background-color: blanchedalmond;
+    height:550px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:5%;   
+    margin-bottom:50px;
+}
+
+.blog_article_1{
+    width:50%;
+    float:left;
+    height:450px;
+    /* background-image: url("../images/noel1.jpg"); */
+  
+}
+
+.blog_article_1:hover .title_blog{
+    color:rgb(248, 11, 11);
+    padding-top:20px;
+    text-decoration: none;
+}
+.blog_article_1:hover .img_blog_1_4{
+
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.effet_title{
+    width:100%;
+    height:100px;
+    padding:30px;
+}
+
+
+
+.blog_article_2{
+    width:25%;
+    float:left;
+    height:450px;
+    
+}
+.parti_1_4{
+    width:100%;
+    height:50%;
+    
+}
+.img_blog_1_4{
+    width:85%;
+    height:85%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.title_blog{
+    /* font-family: 'Lora', serif; */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    padding-top:5px;
+    color:rgb(90, 47, 47);
+    text-decoration: none;
+}
+.fontsize1{
+    font-size:25px;
+}
+.fontsize2{
+    font-size:15px;
+}
+
+.blog_article_2:hover .title_blog{
+    color:rgb(248, 11, 11);
+    padding-top:15px;
+    text-decoration: none;
+}
+.blog_article_2:hover .img_blog_1_4{
+
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* 
+  article -------------------------------*/
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%; 
+    height:fit-content;
+}
+
+
+.title_info1{  
+    font-size:35px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    /* font-weight: 900px; */
+    margin-bottom:15px;
+    
+}
+.title_center{
+    font-size:35px;
+    font-family: 'Roboto Mono', monospace;
+}
+.text_info{  
+    margin-top:10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size:15px;
+    text-align: left;
+    line-height: 30px;
+        
+}
+.sous_title{
+    font-size:22px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.color_text1{
+    color:rgb(53, 83, 155); 
+}
+.list_style_non{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+}
+.list_style_non:hover a{
+    padding-left:30px;
+    color:red;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+.blason{
+    width:20%;
+    
+}
+
+/* ------------------------------------------------------ */
+.jour{
+    width:25%;
+    background-color: rgb(236, 101, 101);
+    color:white;
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:fit-content;
+}
+.position_rel{
+    position: relative;
+}
+.title_agenda{  
+    font-size:15px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    font-weight:bolder;
+    color:rgb(37, 27, 27);
+    
+}
+.text_agenda{
+    font-size:15px;
+    font-family: 'Roboto Mono', monospace;
+    text-align:left;
+    padding-left:10px;
+}
+
+/* 
+  actus -------------------------------*/
+
+.partie_actus{
+    width:50%;
+    float:left;
+}
+
+
+.padding_left{
+    padding-left:5%;
+}
+
+/* 
+  actus -------------------------------*/
+.media_ligne1{
+    width:100%;
+    padding-top:3%;
+    padding-bottom:3%;
+    text-align: center;
+    background-color: rgb(197, 197, 241);
+    font-family: 'Roboto Mono', monospace;
+}
+.media_ligne2{
+    width:100%;
+    height:200px;
+    background-color: pink;
+    text-align: left;
+}
+.img_kiosque{
+    width:100%;
+    height:100%;
+}
+.media_ligne3{
+    color:violet;
+    text-align: left;
+    font-weight:bolder;
+}
+.media_ligne4{
+    color:rgb(46, 14, 46);
+    text-align: left;
+}
+
+/* EVENEMENT */
+.nom_evenement{
+text-align:left;
+font-size:35px;
+color:rgb(22, 174, 200);
+}
+.contenu_evenement{
+    text-align: left;
+    color:rgb(173, 16, 68);
+    font-family: 'Roboto Mono', monospace;
+
+}
+.blog_evenement{
+    margin-bottom: 30px;
+}
+.color_text2{
+    color:rgb(189, 123, 0);
+}
+
+
+
+/* insription_form */
+.formulaire_inscription{
+    width:70%;
+    height:fit-content;
+    /* background-color: rgb(192, 235, 164); */
+    background-color: rgba(144, 144, 218, 0.3); 
+    font-family: 'Roboto Mono', monospace;
+    padding:20px;
+    color:12px;
+    margin-top: 20px;
+    border-radius:10px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+}
+.input_formulaire{
+    width:50%;
+    float:left;
+    text-align:left;
+}
+.title_input{
+font-family: 'Roboto Mono', monospace;
+font-style: italic;
+font-weight:400px;
+}
+.contenu_input{
+    padding:5px;
+
+}
+.position_center{
+    text-align: center;
+}
+/* HOME PAGE */
+.blog_image{
+    width:100%;
+    height:fit-content;
+    margin-bottom:10px;
+}
+.image_unepart{
+    width:100%;
+    height:100%;
+}
+.file_pdf{
+    width:80%;
+    height:1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.non_underline{
+    text-decoration:none;
+}
+.color_text3{
+    color:rgb(57, 119, 200);
+}
+
+/* CSS slides -----------------------------------------------------------------------------------------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {  
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+/* .mySlides {
+  display: none;
+} */
+
+/* Next & previous buttons */
+.prev  {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  left:0;
+}
+.next{
+cursor: pointer;
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+.lien{
+    text-decoration:none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(207, 202, 202, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #ffffff;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bolder ;
+    background-color: rgb(114 114 114 / 50%) !important;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block; 
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #3d3a3a;
+}
+.opacity{
+    opacity: 0.7;
+}
+.img_position{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    height:400px;
+}
+.left{
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+}
+.top{
+    padding-top:50px;
+}
+.background_color{
+    /* background-color: rgb(241, 240, 215); */
+    background-color:rgba(144, 144, 218, 0.3);
+    padding-top:20px;
+    border-radius:10px;
+}
+.dark{
+    filter: brightness(80%);}
+.lien_slide{
+    color:rgb(254 248 248);
+    text-decoration: none;
+
+}
+.lien_slide:hover{
+    color:rgb(224, 176, 176);
+    text-decoration: none;
+}
+
+/* footer */
+footer.nb-footer {
+    background: #222;
+    border-top: 4px solid #b78c33;
+    /* margin-top:40px;  */
+    width:100%;
+}
+    
+    footer.nb-footer .about {
+    margin: 0 auto;
+    /* max-width: 1170px; */
+    max-width: 100%;
+    text-align: center; }
+
+    footer.nb-footer .about p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px; }
+
+    footer.nb-footer .about .social-media {
+    margin-top: 15px; }
+
+    footer.nb-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3); }
+
+    footer.nb-footer .about .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33; }
+
+    footer.nb-footer .footer-info-single {
+    margin-top: 30px; }
+
+    footer.nb-footer .footer-info-single .title {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-left: 4px solid #b78c33;
+    padding-left: 5px; }
+
+    footer.nb-footer .footer-info-single ul li a {
+    display: block;
+    color: #aaa;
+    padding: 2px 0; }
+
+    footer.nb-footer .footer-info-single ul li a:hover {
+    color: #b78c33; }
+
+    footer.nb-footer .footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa; }
+
+    footer.nb-footer .copyright {
+    background: #111;
+    text-align: center;
+    color: #999; 
+    width:100%;}
+
+    footer.nb-footer .copyright p {
+    margin: 0;
+    padding: 0; }
+    .list-inline{
+        overflow:hidden; 
+    }
+    .list-inline>li{
+        display:inline-block;
+    }
+    .container{
+        width:100%;
+        margin:auto;
+    }
+
+
+
+    /**************Modifier le 17/1/22********************/
+
+
+    nav.navbar{
+        padding: unset;
+        height: 10vh;
+        padding-left: 1em;
+        padding-top:10px;
+        padding-bottom:10px;
+        background-color: rgba(202, 221, 220, 0.4) !important; 
+        
+    }
+    body{
+        background-color: rgba(202, 221, 220, 0.4) !important; ;
+    }
+
+    ul.navbar-nav{
+        display: flex;
+        align-items: center;
+        font-family: Montserrat,sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .slideshow-container{
+        height: 90vh;
+    }
+
+    .slideshow-container .mySlides{
+        height: 100%;
+    }
+
+    .slideshow-container .mySlides img.dark {
+        height: 100%;
+    }
+
+    .underline:hover{
+        border-bottom: 2px solid rgba(0,0,0,.5);
+    }
+    .row_div{
+        margin-top:30px;
+    }
+
+    /* ajoute les style des tables */
+    
+    .table{
+        width:80% !important;
+        font-size:15px;
+        border:1px solid rgb(153, 116, 116);
+    }
+    .table thead{
+        background-color:rgb(39, 39, 41);
+        color:white;
+    }
+    .table tbody{
+        background-color:rgb(255, 255, 255); 
+    }
+
+    /* code pour formulaire de connexion */
+    .bloque_formulaire_de_connexion{
+        width:100%;
+        height:80vh;
+        background-image: url("../images/paris-g97c0d89e8_1920.jpg");
+        background-position: center;
+        padding-top:30px;
+    }
+
+    .formulaire_saisir{
+        width:23%;
+        height:67vh;
+        background-color: rgb(233, 227, 228);
+        opacity:0.9;
+        margin-left:auto;
+        margin-right:auto;
+        color:white;
+        
+        
+
+    }
+    .header_connexion
+    {
+        padding: 20px;
+        background-color: rgb(163, 100, 41);
+        text-align: center;
+        font-size:20px;
+    }
+    .body_connexion
+    {
+        background-color: rgb(233, 227, 228);
+        height:fit-content;
+
+    }
+    .input_connexion{
+        margin-bottom: 20px;
+        border-radius: 15px;
+        padding: 5px 10px;
+        border: 1px solid black;
+
+    }
+    .lien_connexion{
+        margin:10px;
+    }
+    .top_input_connexion
+    {
+        margin-top:15px;
+    }
+    .bottom_lien_connexion
+    {
+        margin-bottom:20px;
+    }
+
+
+    /* formulaire inscrire */
+
+.formulaire_saisir_info
+{
+     /* background-color:rgb(138, 231, 126);  */
+    padding:50px 20px;
+    background-image: url("../images/paris-g70748298a_1920.jpg"); 
+    background-position: center;
+}
+.padding_table{
+    width:50%;
+    padding: 20px 30px 20px 0px; 
+    background-color:rgb(170, 194, 231) ;
+    border-radius: 5px;
+    opacity:0.93;   
+
+}
+.style_table_inscrire{
+    background-color:rgb(170, 194, 231);
+    opacity:0.93;    
+ 
+}
+.style_table_inscrire select{
+    width: 200px;
+}
+.style_line{
+    height:40px;
+}
+.style_line input{
+    border-radius: 5px;
+    height: 33px;
+    width: 200px;
+    margin-bottom: 7px;
+    border:solid 0.5px black;
+}
+.style_line select{
+    height: 35px;
+    border-radius: 10px;
+}
+.style_line td{
+    padding:10px 10px 0px 20px;
+}
+.bouton_submit{
+    width:50%;
+}
+.notif_email_pasvalide{
+    width:60%;
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+    margin:30px auto 60px auto;
+    color:red;
+    border-radius: 10px;
+}
+
+/* formulaire gestion mdp oublié */
+.formulaire_mdp_oublie{
+    width:50%;
+    margin:40px auto 40px auto;
+    background-color: rgb(230, 216, 212);
+    
+}
+.header_mdp_oublie{
+    font-size: 30px;
+    color:white;
+    padding:10px; 
+    background-color: rgb(42, 43, 124);   
+}
+.titre_mdp_oublie{
+    padding:10px;    
+}
+
+.formulaire_mdp_oublie input,select{
+    width:300px;
+    margin:10px;
+    height:35px;
+    border-radius: 3px;
+    border:1px solid black;
+}
+.formulaire_mdp_oublie select{
+    margin:10px;
+}
+.titre_page_admin{
+    color:black;
+    padding:20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.notif_reconnecter{
+    width:60%;
+    padding:20px;
+    background-color: rgb(42, 43, 124);
+    font-family: 'Roboto Mono', monospace;
+    margin:30px auto 60px auto;
+    color:white;
+}
+.formulaire_mdp_oublie tr td input,select{
+    width:70%;
+}
+/* taille de la table demande pluriel */
+.style_demande_p
+{
+
+}
+.notification{
+    width:60%;
+    padding:20px;
+    background-color: rgb(42, 43, 124);
+    font-family: 'Roboto Mono', monospace;
+    margin:30px auto 60px auto;
+    color:white;
+}
+.formulaire_demande_pluriel{
+    font-family: 'Roboto Mono', monospace;
+    margin:10px auto 75px auto;
+    /* background-color: mediumspringgreen; */
+    width:70%;
+    padding:20px;
+}

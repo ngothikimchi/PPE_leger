@@ -1,0 +1,22 @@
+- demande accepté pour demande pluriel 
+update status citoyen pour les deux
+
+procedure acte de mariage
+check id 2 personnes : celibataire et divorce -> ok
+
+procedure PACs
+check id 2 personnes trouver statut : celibataire et divorce -> ok
+
+procedure Divorce : marrié (pas cencore fait)
+
+- gestion mot de passe
+Abcop879@az
+checl mdp est composé par 8 charactere majuscule minuscule numero et charactere special
+(fini)
+
+hchage mdp : fini
+gestion mdp oublié : fini
+verifier status afin de saisir dans la demande pluriel
+transformer situation falimiale
+
+
